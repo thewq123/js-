@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <script src="/编程艺术/js/modernizr.custom.31641.js"></script>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1>与乐队接触</h1>
+        <form method="post" action="submit.html">
+            <!-- 字段集 -->
+            <fieldset>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="你的名字" required="required">
+                    <!-- required: 必须的 -->
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="你的邮箱地址" required="required">
+                    <!-- required: 必须的 -->
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="45" rows="7"  placeholder="在这里写下你的信息"></textarea>
+                </p>
+                <button type="submit">提交</button>
+            </fieldset>
+        </form>
+    </article>
+
+
+
+    <script src="js/global.js"></script>
+</body>
+
+</html>

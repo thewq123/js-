@@ -1,0 +1,84 @@
+body {
+    color: #fb5;
+    background-color: #334;
+}
+a:link {
+    color: #445;
+    background-color: #3b6;
+}
+a:hover {
+    color: #667;
+    background-color: #fb5;
+}
+a:active {
+    color: #778;
+    background-color: #ec8;
+}
+
+header nav a.here:link,
+header nav a.here:hover,
+header nav a.here:active,
+header nav a.here:visited { 
+    color: #eef;
+    background-color: rgb(235, 14, 117);
+}
+
+
+
+header {
+    color: #778;
+    background-color: #334;
+    border-color: #667;
+}
+header nav {
+    color: #455;
+    background-color: #789;
+    border-color: #667;
+}
+header nav ul {
+    border-color: #99a;
+}
+header nav a:link, header nav a:visited {
+    color: rgb(63, 112, 245);
+    background-color: transparent;
+    border-color: #99a;
+}
+header nav a:hover {
+    color: #455;
+    background-color: #eb6;
+}
+header nav a:active {
+    color: #455;
+    background-color: #ec8;
+}
+article img {
+    background-color: #ba9;
+    outline-color: #dcb;
+}
+article {
+    color: #223;
+    background-color: rgba(240, 222, 205, 0.5);
+    border-color: #667;
+}
+#imagegallery a {
+    background-color: transparent;
+}
+th {
+    color: #edc;
+    background-color: #455;
+}
+tr td {
+    color: #223;
+    background-color: #eb6;
+}
+tr.odd td {
+    color: #223;
+    background-color: #ec8;
+}
+tr.highlight td {
+    color: #233;
+    background-color: #cba;
+}
+input.placeholder {
+    color: grey;
+}
